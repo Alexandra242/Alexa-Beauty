@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa's Beauty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Alexa's Beauty</h1>
+        <p>Bine ai venit la salonul nostru de înfrumusețare!</p>
+    </header>
+    
+    <!-- Despre Noi -->
+    <section id="about">
+        <h2>Despre noi</h2>
+        <p>La Alexa's Beauty, echipa noastră de profesioniști este gata să îți ofere cele mai bune servicii de manichiură, make-up și coafură.</p>
+    </section>
+
+    <!-- Servicii -->
+    <section id="services">
+        <h2>Servicii</h2>
+        <ul>
+            <li>Manichiură clasică – 50 RON</li>
+            <li>Manichiură cu gel – 80 RON</li>
+            <li>Machiaj zi – 70 RON</li>
+            <li>Coafură specială (evenimente) – 150 RON</li>
+        </ul>
+    </section>
+
+    <!-- Locație -->
+    <section id="location">
+        <h2>Locația noastră</h2>
+        <p>Strada Mihai Viteazul nr. 80, apartament 80, bloc 5A</p>
+        <!-- Poti adăuga aici un iframe cu Google Maps -->
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contactează-ne</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="message">Mesaj:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">Trimite</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alexa's Beauty. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
